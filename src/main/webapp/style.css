@@ -1,0 +1,31 @@
+img {
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+h1 {
+  text-align: center;
+}
+
+
+.Botao1 {
+  display: block; /* corrigido de 'compact' para 'block' */
+  background-color: #0077cc;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Open Sans', sans-serif;
+  margin: 1rem auto 0 auto; /* centraliza horizontalmente */
+  width: max-content; /* botão com largura mínima para o conteúdo */
+}
+
+
+.Botao1:hover {
+  background-color: #005fa3;
+}

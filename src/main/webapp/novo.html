@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Agenda de Contatos</title>
+    <link rel="icon" href="imagens/fone.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img src="imagens/agenda.png" alt="Ícone da Agenda">
+    <h1>Novo contato</h1>
+
+    <form action="/salvarContato" method="post">
+        <table style="margin: 0 auto;">
+            <tr>
+                <td><label for="nome">Nome:</label></td>
+                <td><input type="text" id="nome" name="nome" required></td>
+            </tr>
+            <tr>
+                <td><label for="fone">Telefone:</label></td>
+                <td>
+                    <input type="tel" id="fone" name="fone"
+                           placeholder="(11)91234-5678"
+                           pattern="^\(?\d{2}\)?[\s\-]?\d{4,5}-?\d{4}$"
+                           title="Formato válido: (11)91234-5678"
+                           required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">E-mail:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Salvar Contato" class="Botao1">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <br>
+    <a href="main" class="Botao1">Voltar para Agenda</a>
+
+</body>
+</html>
