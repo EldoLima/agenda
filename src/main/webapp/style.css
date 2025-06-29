@@ -25,7 +25,16 @@ h1 {
   width: max-content; /* botão com largura mínima para o conteúdo */
 }
 
-
-.Botao1:hover {
-  background-color: #005fa3;
+.Caixa1{
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+.Caixa2{
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
 }

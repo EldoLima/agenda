@@ -11,33 +11,34 @@
     <img src="imagens/agenda.png" alt="Ícone da Agenda">
     <h1>Novo contato</h1>
 
-    <form action="/salvarContato" method="post">
+    <form name="frmContato" action="" >
         <table style="margin: 0 auto;">
             <tr>
-                <td><label for="nome">Nome:</label></td>
-                <td><input type="text" id="nome" name="nome" required></td>
+                <td><input type="text" name="nome" placeholder="Nome"
+                class = "Caixa1"required></td>
             </tr>
             <tr>
-                <td><label for="fone">Telefone:</label></td>
                 <td>
-                    <input type="tel" id="fone" name="fone"
+                    <input type="tel" name="fone"
                            placeholder="(11)91234-5678"
+                           class = "Caixa2"
                            pattern="^\(?\d{2}\)?[\s\-]?\d{4,5}-?\d{4}$"
                            title="Formato válido: (11)91234-5678"
                            required>
                 </td>
             </tr>
             <tr>
-                <td><label for="email">E-mail:</label></td>
-                <td><input type="email" id="email" name="email" required></td>
+                <td><input type="email" name="email" placeholder="E-mail"
+                class = "Caixa1"></td>
             </tr>
             <tr>
                 <td colspan="2" style="text-align: center;">
-                    <input type="submit" value="Salvar Contato" class="Botao1">
+                    <input type="button" value="Salvar Contato" class="Botao1" onclick="validar()">
                 </td>
             </tr>
         </table>
     </form>
+    <script src="scripts/validation.js"></script>
 
     <br>
     <a href="main" class="Botao1">Voltar para Agenda</a>

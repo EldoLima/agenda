@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <h1>Agenda de Contatos</h1>
+	<img src="imagens/agenda.png">
+    <h1>Minha agenda</h1>
 
     <!-- Link para adicionar novo contato -->
     <a href="novo.html" class="Botao1">Novo contato</a>
