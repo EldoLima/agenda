@@ -1,6 +1,6 @@
 function validar() {
-	let nome = frnContato.nome.value
-	let fone = frnContato.fone.value
+	let nome = frmContato.nome.value
+	let fone = frmContato.fone.value
 
 	if (nome === "") {
 		alert('Preencha o campo nome')

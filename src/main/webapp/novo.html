@@ -11,7 +11,7 @@
     <img src="imagens/agenda.png" alt="Ícone da Agenda">
     <h1>Novo contato</h1>
 
-    <form name="frmContato" action="" >
+    <form name="frmContato" action="insert" >
         <table style="margin: 0 auto;">
             <tr>
                 <td><input type="text" name="nome" placeholder="Nome"
@@ -22,8 +22,6 @@
                     <input type="tel" name="fone"
                            placeholder="(11)91234-5678"
                            class = "Caixa2"
-                           pattern="^\(?\d{2}\)?[\s\-]?\d{4,5}-?\d{4}$"
-                           title="Formato válido: (11)91234-5678"
                            required>
                 </td>
             </tr>
